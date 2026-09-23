@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="神经网络.vcxproj" Id="b8108edd-70d6-4aaf-a303-46485aaf26ea" />
+</Solution>

@@ -1,0 +1,106 @@
+# ============================================================
+# Mind 语言 — 完整功能示例文件
+# ============================================================
+# 写完一行后按 Enter，插件自动分析整份文件。
+# 以 # @d 开头的注释会被视为"需求"，自动生成 Python + C 代码。
+# ============================================================
+
+# ============================================================
+# 🎯 示例 1: 基础算法 — 链表反转
+# ============================================================
+
+# @d 实现链表反转函数
+# @d 要求: 输入链表头节点，返回反转后的新头节点
+# @d 需要考虑空链表和单节点的情况
+
+Define function reverse_list
+input: head node
+output: reversed head node
+if head is null or head.next is null
+  return head
+
+# 三指针法反转
+set prev = null
+set curr = head
+while curr is not null
+  save next = curr.next
+  curr.next = prev
+  prev = curr
+  curr = next
+
+return prev
+
+# ============================================================
+# 🎯 示例 2: 数据处理 — 数组去重
+# ============================================================
+
+# @d 实现数组去重函数
+# @d 输入: 整数数组，输出: 去重后的新数组
+# @d 要求保持原顺序，使用双指针法
+
+Define function remove_duplicates
+input: sorted array arr
+output: new length
+
+if arr is empty
+  return 0
+
+set write_pos = 1
+for read_pos from 1 to len(arr)-1
+  if arr[read_pos] != arr[read_pos - 1]
+    arr[write_pos] = arr[read_pos]
+    write_pos = write_pos + 1
+
+return write_pos
+
+# ============================================================
+# 🎯 示例 3: 字符串处理 — 回文判断
+# ============================================================
+
+# @d 实现回文判断函数
+# @d 输入: 字符串 s，输出: bool
+# @d 忽略大小写和空格
+
+Define function is_palindrome
+input: string s
+output: true if palindrome
+
+set left = 0
+set right = len(s) - 1
+
+while left < right
+  # 跳过非字母数字字符
+  if s[left] is not alphanumeric
+    left = left + 1
+    continue
+  if s[right] is not alphanumeric
+    right = right - 1
+    continue
+  # 比较字符（忽略大小写）
+  if lower(s[left]) != lower(s[right])
+    return false
+  left = left + 1
+  right = right - 1
+
+return true
+
+# ============================================================
+# 🎯 示例 4: 纯自然语言描述（不生成代码）
+# ============================================================
+
+# 注意: 没有 # @d 前缀的注释不会触发代码生成
+# 下面的内容只是自然语言描述，不会有对应的 .py/.c 输出
+
+分析用户行为数据
+如果活跃度下降超过 10%
+  发送提醒通知
+否则
+  记录日志
+
+# ============================================================
+# 💡 提示:
+# 写完每行按 Enter，插件会自动:
+#   1. 分析语义 → 高亮词汇 + 缩进线 + 颜色
+#   2. 检测 # @d → 生成 .py + .c 文件
+#   3. 创建超链接 → 点击 # @d 跳转到实现
+# ============================================================

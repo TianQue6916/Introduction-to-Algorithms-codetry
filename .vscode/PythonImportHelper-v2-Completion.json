@@ -1,0 +1,1304 @@
+[
+    {
+        "label": "my_module",
+        "importPath": "my_package",
+        "description": "my_package",
+        "isExtraImport": true,
+        "detail": "my_package",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "structseq",
+        "importPath": "_typeshed",
+        "description": "_typeshed",
+        "isExtraImport": true,
+        "detail": "_typeshed",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Final",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Literal",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Protocol",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "final",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "type_check_only",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TypeAlias",
+        "importPath": "typing_extensions",
+        "description": "typing_extensions",
+        "isExtraImport": true,
+        "detail": "typing_extensions",
+        "documentation": {}
+    },
+    {
+        "label": "plus",
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "isExtraImport": true,
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "plus",
+        "importPath": "模块学习2",
+        "description": "模块学习2",
+        "isExtraImport": true,
+        "detail": "模块学习2",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "info_print",
+        "kind": 2,
+        "importPath": "my_package.my_module",
+        "description": "my_package.my_module",
+        "peekOfCode": "def info_print():\n    print(\"This is a function in my_module.py\")",
+        "detail": "my_package.my_module",
+        "documentation": {}
+    },
+    {
+        "label": "tree",
+        "kind": 6,
+        "importPath": "BTS",
+        "description": "BTS",
+        "peekOfCode": "class tree:\n    def __init__(self):\n        \"\"\"初始化空列表\"\"\"\n        self.A = []\n    def insert(self, value):\n        \"\"\"向列表添加元素\"\"\"\n        self.A.append(value)\n    def search(self, value):\n        \"\"\"搜索元素（若存在则删除）并返回是否存在\"\"\"\n        if value in self.A:",
+        "detail": "BTS",
+        "documentation": {}
+    },
+    {
+        "label": "TreeNode",
+        "kind": 6,
+        "importPath": "BTS",
+        "description": "BTS",
+        "peekOfCode": "class TreeNode:\n    def __init__(self, key, value):\n        self.key = key\n        self.value = value\n        self.left = None\n        self.right = None\n        self.height = 1  # 新节点初始高度为1\n# BTS 类：继承 tree，实现二叉搜索树（带 AVL 平衡）\nclass BTS(tree):\n    def __init__(self):",
+        "detail": "BTS",
+        "documentation": {}
+    },
+    {
+        "label": "BTS",
+        "kind": 6,
+        "importPath": "BTS",
+        "description": "BTS",
+        "peekOfCode": "class BTS(tree):\n    def __init__(self):\n        \"\"\"初始化父类列表，同时设置根节点为 None\"\"\"\n        super().__init__()\n        self.root = None\n    def search(self, key):\n        \"\"\"二叉搜索树查找，返回节点值或 None\"\"\"\n        return self._search_recursive(self.root, key)\n    def _search_recursive(self, node, key):\n        \"\"\"递归查找辅助函数\"\"\"",
+        "detail": "BTS",
+        "documentation": {}
+    },
+    {
+        "label": "Record",
+        "kind": 6,
+        "importPath": "data_define",
+        "description": "data_define",
+        "peekOfCode": "class Record:\n    \"\"\"\n    Record 的 Docstring\n    记录类\n    \"\"\"\n    data=None\n    order_id=None\n    money=None\n    province=None",
+        "detail": "data_define",
+        "documentation": {}
+    },
+    {
+        "label": "hello",
+        "kind": 2,
+        "importPath": "make",
+        "description": "make",
+        "peekOfCode": "def hello():\n    \"\"\"输出你好天阙\"\"\"\n    # 打印字符串 \"你好天阙\"\n    print(\"你好天阙\")\nif __name__ == \"__main__\":\n    hello()",
+        "detail": "make",
+        "documentation": {}
+    },
+    {
+        "label": "ListNode",
+        "kind": 6,
+        "importPath": "test_color",
+        "description": "test_color",
+        "peekOfCode": "class ListNode:\n    \"\"\"单链表节点\"\"\"\n    def __init__(self, val=0, next=None):\n        self.val = val\n        self.next = next\ndef reverse_list(head: ListNode) -> ListNode:\n    \"\"\"\n    反转链表 - 三指针法\n    输入: 链表头节点\n    输出: 反转后的新头节点",
+        "detail": "test_color",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_list",
+        "kind": 2,
+        "importPath": "test_color",
+        "description": "test_color",
+        "peekOfCode": "def reverse_list(head: ListNode) -> ListNode:\n    \"\"\"\n    反转链表 - 三指针法\n    输入: 链表头节点\n    输出: 反转后的新头节点\n    处理空链表和单节点情况\n    \"\"\"\n    # 如果链表为空或只有一个节点，直接返回头节点\n    if head is None or head.next is None:\n        return head",
+        "detail": "test_color",
+        "documentation": {}
+    },
+    {
+        "label": "remove_duplicates",
+        "kind": 2,
+        "importPath": "test_color",
+        "description": "test_color",
+        "peekOfCode": "def remove_duplicates(arr: list) -> int:\n    \"\"\"\n    从已排序数组中移除重复元素（原地修改）\n    使用双指针法（快慢指针）\n    输入: 已排序的整数数组arr\n    输出: 去重后的新长度\n    注意: 函数会修改原数组，使得前len个元素为去重后的结果\n    \"\"\"\n    # 如果数组为空，直接返回0\n    if not arr:",
+        "detail": "test_color",
+        "documentation": {}
+    },
+    {
+        "label": "is_palindrome",
+        "kind": 2,
+        "importPath": "test_color",
+        "description": "test_color",
+        "peekOfCode": "def is_palindrome(s: str) -> bool:\n    \"\"\"\n    判断字符串是否为回文（忽略大小写和非字母数字字符）\n    使用双指针从两端向中间扫描\n    输入: 字符串s\n    输出: 布尔值\n    \"\"\"\n    left = 0\n    right = len(s) - 1\n    while left < right:",
+        "detail": "test_color",
+        "documentation": {}
+    },
+    {
+        "label": "print_hello_world",
+        "kind": 2,
+        "importPath": "try",
+        "description": "try",
+        "peekOfCode": "def print_hello_world():\n    # 此函数的功能是输出 \"你好世界\"\n    print(\"你好世界\")\nif __name__ == \"__main__\":\n    # 调用函数来验证功能\n    print_hello_world()",
+        "detail": "try",
+        "documentation": {}
+    },
+    {
+        "label": "Animal:",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class Animal:# 含有抽象方法的类，称为抽象类     \n    def speak(self):# 空实现的\n        # 抽象类好比是定义了一个标准，规定了子类必须实现的方法\n        pass\nclass Dog(Animal):\n    def speak(self):\n        print(\"汪汪汪\")\nclass Cat(Animal):\n    def speak(self):\n        print(\"喵喵喵\")",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "Dog",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class Dog(Animal):\n    def speak(self):\n        print(\"汪汪汪\")\nclass Cat(Animal):\n    def speak(self):\n        print(\"喵喵喵\")\ndef make_noise(animal: Animal):# 通过使用同样的函数，传入不同的方法引用，得到不同的结果\n    animal.speak()\n    return\nmake_noise(Dog())",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "Cat",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class Cat(Animal):\n    def speak(self):\n        print(\"喵喵喵\")\ndef make_noise(animal: Animal):# 通过使用同样的函数，传入不同的方法引用，得到不同的结果\n    animal.speak()\n    return\nmake_noise(Dog())\nmake_noise(Cat())\n# 这里就是在说，使用父类作出声明，使用子类做实际的工作，用以获得同一个行为不同的状态，这就是多态。\n# 多态的体现：不同的子类对象调用相同的方法，产生不同的结果",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class AC:   # 这里就是一个抽象类，就是一个标准，规定了子类必须实现的方法\n    def cool_wind(self):\n        \"\"\"制冷\"\"\"\n        pass\n    def hot_wind(self):\n        \"\"\"制热\"\"\"\n        pass\n    def swing_l_r(self):\n        \"\"\"左右摆风\"\"\"\n        pass",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "midea_AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class midea_AC(AC):\n    def cool_wind(self):\n        print(\"美的空调制冷\")\n    def hot_wind(self):\n        print(\"美的空调制热\")\n    def swing_l_r(self):\n        print(\"美的空调左右摆风\")\n    def swing_u_d(self):\n        print(\"美的空调上下摆风\")\nclass gree_AC(AC):",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "gree_AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class gree_AC(AC):\n    def cool_wind(self):# 这里是必须要覆写的\n        print(\"格力空调制冷\")\n    def hot_wind(self):\n        print(\"格力空调制热\")\n    def swing_l_r(self):\n        print(\"格力空调左右摆风\")\n    def swing_u_d(self):\n        print(\"格力空调上下摆风\")\nAC.hot_wind(gree_AC())",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class AC:\n    def cool_wind(self):\n        \"\"\"制冷\"\"\"\n        pass\n    def hot_wind(self):\n        \"\"\"制热\"\"\"\n        pass\n    def swing_l_r(self):\n        \"\"\"左右摆风\"\"\"\n        pass",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "midea_AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class midea_AC(AC):\n    def cool_wind(self):\n        print(\"美的空调：急速制冷开启\")\n    def hot_wind(self):\n        print(\"美的空调：变频制热中\")\n    def swing_l_r(self):\n        print(\"美的空调→左右摆风\")\n    def swing_u_d(self):\n        print(\"美的空调↑上下摆风\")\nclass gree_AC(AC):",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "gree_AC",
+        "kind": 6,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "class gree_AC(AC):\n    def cool_wind(self):\n        print(\"格力空调：冷酷外机制冷\")\n    def hot_wind(self):\n        print(\"格力空调：恒温舒适制热\")\n    def swing_l_r(self):\n        print(\"格力空调↔左右摆风\")\n    def swing_u_d(self):\n        print(\"格力空调↕上下摆风\")\n# ==================== 执行部分 ====================",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "make_noise",
+        "kind": 2,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "def make_noise(animal: Animal):# 通过使用同样的函数，传入不同的方法引用，得到不同的结果\n    animal.speak()\n    return\nmake_noise(Dog())\nmake_noise(Cat())\n# 这里就是在说，使用父类作出声明，使用子类做实际的工作，用以获得同一个行为不同的状态，这就是多态。\n# 多态的体现：不同的子类对象调用相同的方法，产生不同的结果\nclass AC:   # 这里就是一个抽象类，就是一个标准，规定了子类必须实现的方法\n    def cool_wind(self):\n        \"\"\"制冷\"\"\"",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "test_ac",
+        "kind": 2,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "def test_ac(ac_instance):\n    \"\"\"测试空调功能的多态函数\"\"\"\n    print(f\"\\n测试 {ac_instance.__class__.__name__} 的功能:\")\n    ac_instance.cool_wind()\n    ac_instance.hot_wind()\n    ac_instance.swing_l_r()\n    ac_instance.swing_u_d()\n# 创建空调实例\nmidea_ac = midea_AC()\ngree_ac = gree_AC()",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "midea_ac",
+        "kind": 5,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "midea_ac = midea_AC()\ngree_ac= gree_AC()\nAC.cool_wind(gree_ac)\nAC.cool_wind(midea_ac)\n# 多态调用示例\ndef test_ac(ac_instance):\n    \"\"\"测试空调功能的多态函数\"\"\"\n    print(f\"\\n测试 {ac_instance.__class__.__name__} 的功能:\")\n    ac_instance.cool_wind()\n    ac_instance.hot_wind()",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "midea_ac",
+        "kind": 5,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "midea_ac = midea_AC()\ngree_ac = gree_AC()\n# 使用多态方式调用\ntest_ac(midea_ac)\ntest_ac(gree_ac)\nclass AC:\n    def cool_wind(self):\n        \"\"\"制冷\"\"\"\n        pass\n    def hot_wind(self):",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "gree_ac",
+        "kind": 5,
+        "importPath": "多态",
+        "description": "多态",
+        "peekOfCode": "gree_ac = gree_AC()\n# 使用多态方式调用\ntest_ac(midea_ac)\ntest_ac(gree_ac)\nclass AC:\n    def cool_wind(self):\n        \"\"\"制冷\"\"\"\n        pass\n    def hot_wind(self):\n        \"\"\"制热\"\"\"",
+        "detail": "多态",
+        "documentation": {}
+    },
+    {
+        "label": "MyError",
+        "kind": 6,
+        "importPath": "异常学习",
+        "description": "异常学习",
+        "peekOfCode": "class MyError(Exception):\n    def __init__(self, message):\n        self.message = message\ntry:\n    raise MyError(\"自定义异常\")\nexcept MyError as e:\n    print(e.message)\n# 异常处理\ntry:\n    num = int(input(\"请输入一个整数：\"))",
+        "detail": "异常学习",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "异常学习",
+        "description": "异常学习",
+        "peekOfCode": "def divide(x, y):\n    try:\n        result = x / y\n    except ZeroDivisionError:\n        print(\"除数不能为0\")\n        raise\n    return result\ntry:\n    divide(10, 0)\nexcept ZeroDivisionError:",
+        "detail": "异常学习",
+        "documentation": {}
+    },
+    {
+        "label": "plu",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def plus (x, y):\n    return x + y\ndef minus(x, y):\n    return x - y\ndef multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\ndef power(x, y):\n    return x ** y",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "minus",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def minus(x, y):\n    return x - y\ndef multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\ndef power(x, y):\n    return x ** y\ndef mod(x, y):\n    return x % y",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "multiply",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def multiply(x, y):\n    return x * y\ndef divide(x, y):\n    return x / y\ndef power(x, y):\n    return x ** y\ndef mod(x, y):\n    return x % y\ndef floor_divide(x, y):\n    return x // y",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "divide",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def divide(x, y):\n    return x / y\ndef power(x, y):\n    return x ** y\ndef mod(x, y):\n    return x % y\ndef floor_divide(x, y):\n    return x // y\ndef absolute(x):\n    return abs(x)",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "power",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def power(x, y):\n    return x ** y\ndef mod(x, y):\n    return x % y\ndef floor_divide(x, y):\n    return x // y\ndef absolute(x):\n    return abs(x)\ndef round(x):\n    return round(x)",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "mod",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def mod(x, y):\n    return x % y\ndef floor_divide(x, y):\n    return x // y\ndef absolute(x):\n    return abs(x)\ndef round(x):\n    return round(x)\ndef square(x):\n    return x ** 2",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "floor_divide",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def floor_divide(x, y):\n    return x // y\ndef absolute(x):\n    return abs(x)\ndef round(x):\n    return round(x)\ndef square(x):\n    return x ** 2\ndef cube(x):\n    return x ** 3",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "absolute",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def absolute(x):\n    return abs(x)\ndef round(x):\n    return round(x)\ndef square(x):\n    return x ** 2\ndef cube(x):\n    return x ** 3",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "round",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def round(x):\n    return round(x)\ndef square(x):\n    return x ** 2\ndef cube(x):\n    return x ** 3",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "square",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def square(x):\n    return x ** 2\ndef cube(x):\n    return x ** 3",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "cube",
+        "kind": 2,
+        "importPath": "我的实验",
+        "description": "我的实验",
+        "peekOfCode": "def cube(x):\n    return x ** 3",
+        "detail": "我的实验",
+        "documentation": {}
+    },
+    {
+        "label": "struct_time",
+        "kind": 6,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "class struct_time(structseq[Any | int], _TimeTuple):\n    if sys.version_info >= (3, 10):\n        __match_args__: Final = (\"tm_year\", \"tm_mon\", \"tm_mday\", \"tm_hour\", \"tm_min\", \"tm_sec\", \"tm_wday\", \"tm_yday\", \"tm_isdst\")\n    @property\n    def tm_year(self) -> int: ...\n    @property\n    def tm_mon(self) -> int: ...\n    @property\n    def tm_mday(self) -> int: ...\n    @property",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "_ClockInfo",
+        "kind": 6,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "class _ClockInfo(Protocol):\n    adjustable: bool\n    implementation: str\n    monotonic: bool\n    resolution: float\ndef get_clock_info(name: Literal[\"monotonic\", \"perf_counter\", \"process_time\", \"time\", \"thread_time\"], /) -> _ClockInfo: ...\ndef monotonic() -> float: ...\ndef perf_counter() -> float: ...\ndef process_time() -> float: ...\nif sys.platform != \"win32\":",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "asctime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def asctime(time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef ctime(seconds: float | None = None, /) -> str: ...\ndef gmtime(seconds: float | None = None, /) -> struct_time: ...\ndef localtime(seconds: float | None = None, /) -> struct_time: ...\ndef mktime(time_tuple: _TimeTuple | struct_time, /) -> float: ...\ndef sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "ctime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def ctime(seconds: float | None = None, /) -> str: ...\ndef gmtime(seconds: float | None = None, /) -> struct_time: ...\ndef localtime(seconds: float | None = None, /) -> struct_time: ...\ndef mktime(time_tuple: _TimeTuple | struct_time, /) -> float: ...\ndef sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "gmtime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def gmtime(seconds: float | None = None, /) -> struct_time: ...\ndef localtime(seconds: float | None = None, /) -> struct_time: ...\ndef mktime(time_tuple: _TimeTuple | struct_time, /) -> float: ...\ndef sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "localtime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def localtime(seconds: float | None = None, /) -> struct_time: ...\ndef mktime(time_tuple: _TimeTuple | struct_time, /) -> float: ...\ndef sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "mktime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def mktime(time_tuple: _TimeTuple | struct_time, /) -> float: ...\ndef sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):\n    adjustable: bool",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def sleep(seconds: float, /) -> None: ...\ndef strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):\n    adjustable: bool\n    implementation: str",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "strftime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def strftime(format: str, time_tuple: _TimeTuple | struct_time = ..., /) -> str: ...\ndef strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):\n    adjustable: bool\n    implementation: str\n    monotonic: bool",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "strptime",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def strptime(data_string: str, format: str = \"%a %b %d %H:%M:%S %Y\", /) -> struct_time: ...\ndef time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):\n    adjustable: bool\n    implementation: str\n    monotonic: bool\n    resolution: float",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def time() -> float: ...\nif sys.platform != \"win32\":\n    def tzset() -> None: ...  # Unix only\n@type_check_only\nclass _ClockInfo(Protocol):\n    adjustable: bool\n    implementation: str\n    monotonic: bool\n    resolution: float\ndef get_clock_info(name: Literal[\"monotonic\", \"perf_counter\", \"process_time\", \"time\", \"thread_time\"], /) -> _ClockInfo: ...",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "get_clock_info",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def get_clock_info(name: Literal[\"monotonic\", \"perf_counter\", \"process_time\", \"time\", \"thread_time\"], /) -> _ClockInfo: ...\ndef monotonic() -> float: ...\ndef perf_counter() -> float: ...\ndef process_time() -> float: ...\nif sys.platform != \"win32\":\n    def clock_getres(clk_id: int, /) -> float: ...  # Unix only\n    def clock_gettime(clk_id: int, /) -> float: ...  # Unix only\n    def clock_settime(clk_id: int, time: float, /) -> None: ...  # Unix only\nif sys.platform != \"win32\":\n    def clock_gettime_ns(clk_id: int, /) -> int: ...",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "monotonic",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def monotonic() -> float: ...\ndef perf_counter() -> float: ...\ndef process_time() -> float: ...\nif sys.platform != \"win32\":\n    def clock_getres(clk_id: int, /) -> float: ...  # Unix only\n    def clock_gettime(clk_id: int, /) -> float: ...  # Unix only\n    def clock_settime(clk_id: int, time: float, /) -> None: ...  # Unix only\nif sys.platform != \"win32\":\n    def clock_gettime_ns(clk_id: int, /) -> int: ...\n    def clock_settime_ns(clock_id: int, time: int, /) -> int: ...",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "perf_counter",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def perf_counter() -> float: ...\ndef process_time() -> float: ...\nif sys.platform != \"win32\":\n    def clock_getres(clk_id: int, /) -> float: ...  # Unix only\n    def clock_gettime(clk_id: int, /) -> float: ...  # Unix only\n    def clock_settime(clk_id: int, time: float, /) -> None: ...  # Unix only\nif sys.platform != \"win32\":\n    def clock_gettime_ns(clk_id: int, /) -> int: ...\n    def clock_settime_ns(clock_id: int, time: int, /) -> int: ...\nif sys.platform == \"linux\":",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "process_time",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def process_time() -> float: ...\nif sys.platform != \"win32\":\n    def clock_getres(clk_id: int, /) -> float: ...  # Unix only\n    def clock_gettime(clk_id: int, /) -> float: ...  # Unix only\n    def clock_settime(clk_id: int, time: float, /) -> None: ...  # Unix only\nif sys.platform != \"win32\":\n    def clock_gettime_ns(clk_id: int, /) -> int: ...\n    def clock_settime_ns(clock_id: int, time: int, /) -> int: ...\nif sys.platform == \"linux\":\n    def pthread_getcpuclockid(thread_id: int, /) -> int: ...",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "monotonic_ns",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def monotonic_ns() -> int: ...\ndef perf_counter_ns() -> int: ...\ndef process_time_ns() -> int: ...\ndef time_ns() -> int: ...\ndef thread_time() -> float: ...\ndef thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "perf_counter_ns",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def perf_counter_ns() -> int: ...\ndef process_time_ns() -> int: ...\ndef time_ns() -> int: ...\ndef thread_time() -> float: ...\ndef thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)\nif __name__ == \"__main__\":",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "process_time_ns",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def process_time_ns() -> int: ...\ndef time_ns() -> int: ...\ndef thread_time() -> float: ...\ndef thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)\nif __name__ == \"__main__\":\n    # 在这里添加主程序代码",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "time_ns",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def time_ns() -> int: ...\ndef thread_time() -> float: ...\ndef thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)\nif __name__ == \"__main__\":\n    # 在这里添加主程序代码\n    pass",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "thread_time",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def thread_time() -> float: ...\ndef thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)\nif __name__ == \"__main__\":\n    # 在这里添加主程序代码\n    pass",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "thread_time_ns",
+        "kind": 2,
+        "importPath": "模块学习",
+        "description": "模块学习",
+        "peekOfCode": "def thread_time_ns() -> int: ...\nfrom 我的实验 import plus as p\nfrom 模块学习2 import plus as p\na=p(1, 2)\nprint (a)\nif __name__ == \"__main__\":\n    # 在这里添加主程序代码\n    pass",
+        "detail": "模块学习",
+        "documentation": {}
+    },
+    {
+        "label": "plu",
+        "kind": 2,
+        "importPath": "模块学习2",
+        "description": "模块学习2",
+        "peekOfCode": "def plus (x, y):\n    return x + y",
+        "detail": "模块学习2",
+        "documentation": {}
+    },
+    {
+        "label": "student",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class student:\n    def add(x, y):\n        \"\"\"\n        这是一个加法函数\n        :param x: 第一个加数\n        :param y: 第二个加数\n        :return: 两个数的和\n        \"\"\"\n        return x + y\nmy_list = [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", 7, 8, 9, 0]",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "MyClass",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class MyClass:\n    def __init__(self):\n        self.__private_var = 10\n    def __private_method(self):\n        print(\"This is a private method.\")\n    def public_method(self):\n        print(\"This is a public method.\")\n        self.__private_method()\nobj = MyClass()\nprint(obj._MyClass__private_var)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "phone",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class phone:  # 定义一个名为phone的类\n    __is_5G_enable = False  # 使用双下划线定义私有类属性，表示5G功能默认关闭\n    def __check_5G(self):  # 使用双下划线定义私有方法，用于检查5G状态\n        if self.__is_5G_enable:  # 检查5G是否开启\n            print (\"5G开启\")  # 如果5G开启，打印提示信息\n            return\n        else :  # 如果5G未开启\n            print(\"5G will close,use 4G\")  # 打印使用4G的提示信息\n            return\n        return  # 返回（虽然这个return语句实际上不会执行到）",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "phone",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class phone:\n    IMEI = None  # 序列号\n    product = None  # 厂商\n    def call_by_4g(self):\n        print(\"4g phone\")\n        return\n    pass\nclass phone_2022(phone):  # 这里就做出了继承\n    face_id = True\n    print(\"IMEI\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "phone_2022",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class phone_2022(phone):  # 这里就做出了继承\n    face_id = True\n    print(\"IMEI\")\n    def call_by_5G(self):\n        print(\"2022 new phone\")\n        return\n    pass\nphone_new = phone_2022()\nphone_new.call_by_5G()\n# class 类名 （父亲名）",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "red_line",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class red_line:\n    yk = \"red_line\"\n    def control(self):\n        print(\"red_line was open\")\n        return\n    pass\n# 多继承\nclass phone_2025(phone_2022, red_line):\n    print(\"2025\")\n    phone.call_by_4g",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "phone_2025",
+        "kind": 6,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "class phone_2025(phone_2022, red_line):\n    print(\"2025\")\n    phone.call_by_4g\n    phone_2022.call_by_5G\n    red_line.control\n    pass\nphone=phone_2025()\nphone.red_line.control",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "test",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def test():\n    global num\n    num = 100\n    print(num)\n    return num\nprint(test())   # here we are returning the value of num from the function and printing it\nnum = 200\nprint(num)\n# 列表\nmy_list = ['nihao', 'yo', 222, 15.5]",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def add(x, y):\n    \"\"\" \n    这是一个加法函数\n    :param x: 第一个加数\n    :param y: 第二个加数\n    :return: 两个数的和\n    \"\"\"\n    return x + y\nclass student:\n    def add(x, y):",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_function",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def my_function(name, age):\n    print(f\"Name: {name}, Age: {age}\")\nmy_function(\"Alice\", 25)\nmy_function(name=\"Alice\", age=25)\ndef user_info(name, age, gender):\n    print(name, age, gender)\nuser_info(name=\"zyx\", gender=\"man\", age=18)\ndef user_info_with_defaults(name, age=18, gender=\"man\"):\n    print(name, age, gender)\nuser_info_with_defaults(name=\"zyx\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "user_info",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def user_info(name, age, gender):\n    print(name, age, gender)\nuser_info(name=\"zyx\", gender=\"man\", age=18)\ndef user_info_with_defaults(name, age=18, gender=\"man\"):\n    print(name, age, gender)\nuser_info_with_defaults(name=\"zyx\")\ndef user_info_varargs(*args):\n    print(args)\ndef user_info_kwargs(**kwargs):\n    print(kwargs)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "user_info_with_defaults",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def user_info_with_defaults(name, age=18, gender=\"man\"):\n    print(name, age, gender)\nuser_info_with_defaults(name=\"zyx\")\ndef user_info_varargs(*args):\n    print(args)\ndef user_info_kwargs(**kwargs):\n    print(kwargs)\nuser_info_kwargs(name=2, age=3)\ndef test_func(compute, x, y):\n    result = compute(x, y)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "user_info_varargs",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def user_info_varargs(*args):\n    print(args)\ndef user_info_kwargs(**kwargs):\n    print(kwargs)\nuser_info_kwargs(name=2, age=3)\ndef test_func(compute, x, y):\n    result = compute(x, y)\n    return result\nx, y = 0, 0\nprint(test_func(lambda x, y: x + y, x, y))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "user_info_kwargs",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def user_info_kwargs(**kwargs):\n    print(kwargs)\nuser_info_kwargs(name=2, age=3)\ndef test_func(compute, x, y):\n    result = compute(x, y)\n    return result\nx, y = 0, 0\nprint(test_func(lambda x, y: x + y, x, y))\n# 文件操作示例\ntry:",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "test_func",
+        "kind": 2,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "def test_func(compute, x, y):\n    result = compute(x, y)\n    return result\nx, y = 0, 0\nprint(test_func(lambda x, y: x + y, x, y))\n# 文件操作示例\ntry:\n    with open(r\"D:\\学习\\word.txt\", \"r\", encoding=\"UTF-8\") as f:\n        content = f.read()\n        count = content.count(\"L\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "num = 200\nprint(num)\n# 列表\nmy_list = ['nihao', 'yo', 222, 15.5]\n# 字典\nmy_dict = {'name': 'zhangsan', 'age': 18, 'gender': 'male'}    \n# 字典的key必须是不可变类型，value可以是任意类型\n# 字典的key不能重复，value可以重复\n# 字典的key和value是一一对应的，key和value之间用冒号分隔，key和value之间用逗号分隔\n# 元组",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list = ['nihao', 'yo', 222, 15.5]\n# 字典\nmy_dict = {'name': 'zhangsan', 'age': 18, 'gender': 'male'}    \n# 字典的key必须是不可变类型，value可以是任意类型\n# 字典的key不能重复，value可以重复\n# 字典的key和value是一一对应的，key和value之间用冒号分隔，key和value之间用逗号分隔\n# 元组\nmy_tuple = (1, 2, 3, 4, 5)\n# 元组是不可变的，不能修改元组中的元素\nmy_list = [\"nihao\", \"yo\", 222, 15.5, True]",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_dict = {'name': 'zhangsan', 'age': 18, 'gender': 'male'}    \n# 字典的key必须是不可变类型，value可以是任意类型\n# 字典的key不能重复，value可以重复\n# 字典的key和value是一一对应的，key和value之间用冒号分隔，key和value之间用逗号分隔\n# 元组\nmy_tuple = (1, 2, 3, 4, 5)\n# 元组是不可变的，不能修改元组中的元素\nmy_list = [\"nihao\", \"yo\", 222, 15.5, True]\nprint(my_list)\nprint(type(my_list))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_tuple",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_tuple = (1, 2, 3, 4, 5)\n# 元组是不可变的，不能修改元组中的元素\nmy_list = [\"nihao\", \"yo\", 222, 15.5, True]\nprint(my_list)\nprint(type(my_list))\n# 定义一个嵌套的列表\nlist2 = [[1, 2, 3], [4, 5, 6]]\nprint(list2)\nprint(type(list2))\n# 嵌套的列表如何索引呢？",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list = [\"nihao\", \"yo\", 222, 15.5, True]\nprint(my_list)\nprint(type(my_list))\n# 定义一个嵌套的列表\nlist2 = [[1, 2, 3], [4, 5, 6]]\nprint(list2)\nprint(type(list2))\n# 嵌套的列表如何索引呢？\ntry:\n    print(list2[0][1])  # 输出结果为2",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "list2",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "list2 = [[1, 2, 3], [4, 5, 6]]\nprint(list2)\nprint(type(list2))\n# 嵌套的列表如何索引呢？\ntry:\n    print(list2[0][1])  # 输出结果为2\n    print(list2[1][2])  # 输出结果为6\n    print(list2[0][2])  # 输出结果为3\n    print(list2[1][0])  # 输出结果为4\n    print(list2[0][0])  # 输出结果为1",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "dict2",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "dict2 = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\", \"hobbies\": [\"reading\", \"swimming\"]}\nprint(dict2)\nprint(type(dict2))\n# 如果将函数定义为class（类）的成员的话，那么这就是一个方法\ndef add(x, y):\n    \"\"\" \n    这是一个加法函数\n    :param x: 第一个加数\n    :param y: 第二个加数\n    :return: 两个数的和",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list = [\"1\", \"2\", \"3\", \"4\", \"5\", \"6\", 7, 8, 9, 0]\nindex = my_list.index(\"5\")  # 查找列表中第一个等于5的元素的索引\nprint(index)  # 输出结果为4\nindex = my_list.index(7)\nprint(index)  # 输出结果为6\nmy_list[0] = \"yoyoyoyoyyo\"\nprint(my_list)\nmy_list[0] = \"1\"\nprint(my_list)\n# insert()方法",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "index = my_list.index(\"5\")  # 查找列表中第一个等于5的元素的索引\nprint(index)  # 输出结果为4\nindex = my_list.index(7)\nprint(index)  # 输出结果为6\nmy_list[0] = \"yoyoyoyoyyo\"\nprint(my_list)\nmy_list[0] = \"1\"\nprint(my_list)\n# insert()方法\nmy_list.insert(0, \"0\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "index = my_list.index(7)\nprint(index)  # 输出结果为6\nmy_list[0] = \"yoyoyoyoyyo\"\nprint(my_list)\nmy_list[0] = \"1\"\nprint(my_list)\n# insert()方法\nmy_list.insert(0, \"0\")\nprint(my_list)\n# 追加元素",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list[0]",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list[0] = \"yoyoyoyoyyo\"\nprint(my_list)\nmy_list[0] = \"1\"\nprint(my_list)\n# insert()方法\nmy_list.insert(0, \"0\")\nprint(my_list)\n# 追加元素\nmy_list.append(\"10\")\nprint(my_list)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list[0]",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list[0] = \"1\"\nprint(my_list)\n# insert()方法\nmy_list.insert(0, \"0\")\nprint(my_list)\n# 追加元素\nmy_list.append(\"10\")\nprint(my_list)\n# 追加一批元素\nmy_list.extend([11, 12, 13, 14, 15, 16, 17, 18, 19, 20])",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_list",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]\nprint(my_list.count(1))\n# 列表的元素数量\nprint(len(my_list))\n# 元组\nt1 = (1, \"hello\", True)\nt2 = ()\nt3 = tuple()\ntuples = [t1, t2, t3]\nfor t in tuples:",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "t1",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "t1 = (1, \"hello\", True)\nt2 = ()\nt3 = tuple()\ntuples = [t1, t2, t3]\nfor t in tuples:\n    print(type(t))\n# 元组查找下标\nprint(t1.index(\"hello\"))\nprint(t1.index(True))\nprint(t1.count(True))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "t2",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "t2 = ()\nt3 = tuple()\ntuples = [t1, t2, t3]\nfor t in tuples:\n    print(type(t))\n# 元组查找下标\nprint(t1.index(\"hello\"))\nprint(t1.index(True))\nprint(t1.count(True))\nprint(len(t1))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "t3",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "t3 = tuple()\ntuples = [t1, t2, t3]\nfor t in tuples:\n    print(type(t))\n# 元组查找下标\nprint(t1.index(\"hello\"))\nprint(t1.index(True))\nprint(t1.count(True))\nprint(len(t1))\nmy_str = \"ith\"",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "tuples",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "tuples = [t1, t2, t3]\nfor t in tuples:\n    print(type(t))\n# 元组查找下标\nprint(t1.index(\"hello\"))\nprint(t1.index(True))\nprint(t1.count(True))\nprint(len(t1))\nmy_str = \"ith\"\n# 1. 通过下标索引取值",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_str",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_str = \"ith\"\n# 1. 通过下标索引取值\nprint(f\"第一个字符: {my_str[0]}\")  # 输出: i\nprint(f\"最后一个字符: {my_str[-1]}\")  # 输出: h\n# 2. index方法\nposition = my_str.index(\"t\")\nprint(f\"'t'的位置: {position}\")\n# 3. replace方法\nnew_str = my_str.replace(\"i\", \"python\")\nprint(f\"替换后: {new_str}\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "position",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "position = my_str.index(\"t\")\nprint(f\"'t'的位置: {position}\")\n# 3. replace方法\nnew_str = my_str.replace(\"i\", \"python\")\nprint(f\"替换后: {new_str}\")\n# 4. split方法\ntest_str = \"hello world python\"\nwords = test_str.split(\" \")\nprint(f\"分割结果: {words}\")\n# 5. strip方法",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "new_str",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "new_str = my_str.replace(\"i\", \"python\")\nprint(f\"替换后: {new_str}\")\n# 4. split方法\ntest_str = \"hello world python\"\nwords = test_str.split(\" \")\nprint(f\"分割结果: {words}\")\n# 5. strip方法\ntest_str2 = \"  hello  \"\nprint(f\"去除空格后: '{test_str2.strip()}'\")\ntest_str3 = \"***hello***\"",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "test_str",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "test_str = \"hello world python\"\nwords = test_str.split(\" \")\nprint(f\"分割结果: {words}\")\n# 5. strip方法\ntest_str2 = \"  hello  \"\nprint(f\"去除空格后: '{test_str2.strip()}'\")\ntest_str3 = \"***hello***\"\nprint(f\"去除*后: '{test_str3.strip('*')}'\")\n# 6. 统计字符串中某字符串的出现次数\ncount_i = my_str.count(\"i\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "words",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "words = test_str.split(\" \")\nprint(f\"分割结果: {words}\")\n# 5. strip方法\ntest_str2 = \"  hello  \"\nprint(f\"去除空格后: '{test_str2.strip()}'\")\ntest_str3 = \"***hello***\"\nprint(f\"去除*后: '{test_str3.strip('*')}'\")\n# 6. 统计字符串中某字符串的出现次数\ncount_i = my_str.count(\"i\")\nprint(f\"'i'出现的次数: {count_i}\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "test_str2",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "test_str2 = \"  hello  \"\nprint(f\"去除空格后: '{test_str2.strip()}'\")\ntest_str3 = \"***hello***\"\nprint(f\"去除*后: '{test_str3.strip('*')}'\")\n# 6. 统计字符串中某字符串的出现次数\ncount_i = my_str.count(\"i\")\nprint(f\"'i'出现的次数: {count_i}\")\n# 7. 统计字符串的长度\nlength = len(my_str)\nprint(f\"字符串长度: {length}\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "test_str3",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "test_str3 = \"***hello***\"\nprint(f\"去除*后: '{test_str3.strip('*')}'\")\n# 6. 统计字符串中某字符串的出现次数\ncount_i = my_str.count(\"i\")\nprint(f\"'i'出现的次数: {count_i}\")\n# 7. 统计字符串的长度\nlength = len(my_str)\nprint(f\"字符串长度: {length}\")\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nprint(my_dict[\"name\"])",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "count_i",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "count_i = my_str.count(\"i\")\nprint(f\"'i'出现的次数: {count_i}\")\n# 7. 统计字符串的长度\nlength = len(my_str)\nprint(f\"字符串长度: {length}\")\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nprint(my_dict[\"name\"])\nprint(my_dict[\"age\"])\nprint(my_dict[\"gender\"])\nscore = my_dict.pop(\"name\")",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "length = len(my_str)\nprint(f\"字符串长度: {length}\")\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nprint(my_dict[\"name\"])\nprint(my_dict[\"age\"])\nprint(my_dict[\"gender\"])\nscore = my_dict.pop(\"name\")\nmy_dict.clear()\nkeys = my_dict.keys()\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nprint(my_dict[\"name\"])\nprint(my_dict[\"age\"])\nprint(my_dict[\"gender\"])\nscore = my_dict.pop(\"name\")\nmy_dict.clear()\nkeys = my_dict.keys()\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nfor key in keys:\n    print(key)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "score",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "score = my_dict.pop(\"name\")\nmy_dict.clear()\nkeys = my_dict.keys()\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nfor key in keys:\n    print(key)\nvalues = my_dict.values()\nfor value in values:\n    print(value)\n# 定义五类数据容器",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "keys",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "keys = my_dict.keys()\nmy_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nfor key in keys:\n    print(key)\nvalues = my_dict.values()\nfor value in values:\n    print(value)\n# 定义五类数据容器\nnumbers = [1, 2, 3, 4, 5]  # 列表\npoint = (10, 20)  # 元组",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "my_dict",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "my_dict = {\"name\": \"zhangsan\", \"age\": 18, \"gender\": \"male\"}\nfor key in keys:\n    print(key)\nvalues = my_dict.values()\nfor value in values:\n    print(value)\n# 定义五类数据容器\nnumbers = [1, 2, 3, 4, 5]  # 列表\npoint = (10, 20)  # 元组\nperson = {\"name\": \"张三\", \"age\": 18}  # 字典",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "values = my_dict.values()\nfor value in values:\n    print(value)\n# 定义五类数据容器\nnumbers = [1, 2, 3, 4, 5]  # 列表\npoint = (10, 20)  # 元组\nperson = {\"name\": \"张三\", \"age\": 18}  # 字典\nunique_items = {1, 2, 3, 4}  # 集合\ntext = \"Hello\"  # 字符串\nprint(len(numbers))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "numbers",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "numbers = [1, 2, 3, 4, 5]  # 列表\npoint = (10, 20)  # 元组\nperson = {\"name\": \"张三\", \"age\": 18}  # 字典\nunique_items = {1, 2, 3, 4}  # 集合\ntext = \"Hello\"  # 字符串\nprint(len(numbers))\nprint(len(point))\nprint(len(person))\nprint(len(unique_items))\nprint(len(text))",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "point",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "point = (10, 20)  # 元组\nperson = {\"name\": \"张三\", \"age\": 18}  # 字典\nunique_items = {1, 2, 3, 4}  # 集合\ntext = \"Hello\"  # 字符串\nprint(len(numbers))\nprint(len(point))\nprint(len(person))\nprint(len(unique_items))\nprint(len(text))\n# 容器类型转换",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "person = {\"name\": \"张三\", \"age\": 18}  # 字典\nunique_items = {1, 2, 3, 4}  # 集合\ntext = \"Hello\"  # 字符串\nprint(len(numbers))\nprint(len(point))\nprint(len(person))\nprint(len(unique_items))\nprint(len(text))\n# 容器类型转换\ntuple_numbers = tuple(numbers)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "unique_items",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "unique_items = {1, 2, 3, 4}  # 集合\ntext = \"Hello\"  # 字符串\nprint(len(numbers))\nprint(len(point))\nprint(len(person))\nprint(len(unique_items))\nprint(len(text))\n# 容器类型转换\ntuple_numbers = tuple(numbers)\nprint(tuple_numbers)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "text = \"Hello\"  # 字符串\nprint(len(numbers))\nprint(len(point))\nprint(len(person))\nprint(len(unique_items))\nprint(len(text))\n# 容器类型转换\ntuple_numbers = tuple(numbers)\nprint(tuple_numbers)\nlist_point = list(point)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_numbers",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "tuple_numbers = tuple(numbers)\nprint(tuple_numbers)\nlist_point = list(point)\nprint(list_point)\nlist_person = list(person.items())\nprint(list_person)\nlist_unique_items = list(unique_items)\nprint(list_unique_items)\nlist_text = list(text)\nprint(list_text)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "list_point",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "list_point = list(point)\nprint(list_point)\nlist_person = list(person.items())\nprint(list_person)\nlist_unique_items = list(unique_items)\nprint(list_unique_items)\nlist_text = list(text)\nprint(list_text)\ntuple_text = tuple(text)\nprint(tuple_text)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "list_person",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "list_person = list(person.items())\nprint(list_person)\nlist_unique_items = list(unique_items)\nprint(list_unique_items)\nlist_text = list(text)\nprint(list_text)\ntuple_text = tuple(text)\nprint(tuple_text)\nset_text = set(text)\nprint(set_text)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "list_unique_items",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "list_unique_items = list(unique_items)\nprint(list_unique_items)\nlist_text = list(text)\nprint(list_text)\ntuple_text = tuple(text)\nprint(tuple_text)\nset_text = set(text)\nprint(set_text)\nset_person = set(person)\nprint(set_person)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "list_text",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "list_text = list(text)\nprint(list_text)\ntuple_text = tuple(text)\nprint(tuple_text)\nset_text = set(text)\nprint(set_text)\nset_person = set(person)\nprint(set_person)\nset_numbers = set(numbers)\nprint(set_numbers)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_text",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "tuple_text = tuple(text)\nprint(tuple_text)\nset_text = set(text)\nprint(set_text)\nset_person = set(person)\nprint(set_person)\nset_numbers = set(numbers)\nprint(set_numbers)\n# 函数参数示例\ndef my_function(name, age):",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "set_text",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "set_text = set(text)\nprint(set_text)\nset_person = set(person)\nprint(set_person)\nset_numbers = set(numbers)\nprint(set_numbers)\n# 函数参数示例\ndef my_function(name, age):\n    print(f\"Name: {name}, Age: {age}\")\nmy_function(\"Alice\", 25)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "set_person",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "set_person = set(person)\nprint(set_person)\nset_numbers = set(numbers)\nprint(set_numbers)\n# 函数参数示例\ndef my_function(name, age):\n    print(f\"Name: {name}, Age: {age}\")\nmy_function(\"Alice\", 25)\nmy_function(name=\"Alice\", age=25)\ndef user_info(name, age, gender):",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "set_numbers",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "set_numbers = set(numbers)\nprint(set_numbers)\n# 函数参数示例\ndef my_function(name, age):\n    print(f\"Name: {name}, Age: {age}\")\nmy_function(\"Alice\", 25)\nmy_function(name=\"Alice\", age=25)\ndef user_info(name, age, gender):\n    print(name, age, gender)\nuser_info(name=\"zyx\", gender=\"man\", age=18)",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "obj",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "obj = MyClass()\nprint(obj._MyClass__private_var)\nobj.public_method()\n# obj.__private_method()  # 这行代码会引发AttributeError异常\n# 如何吸收异常\ntry:\n    # 可能引发异常的代码\n    pass\nexcept Exception as e:\n    # 处理异常的代码",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "phone_new",
+        "kind": 5,
+        "importPath": "测试修改辅助学习",
+        "description": "测试修改辅助学习",
+        "peekOfCode": "phone_new = phone_2022()\nphone_new.call_by_5G()\n# class 类名 （父亲名）\n# 从父本那里继承类和方法\n# 继承这里有单继承和多继承\nclass red_line:\n    yk = \"red_line\"\n    def control(self):\n        print(\"red_line was open\")\n        return",
+        "detail": "测试修改辅助学习",
+        "documentation": {}
+    },
+    {
+        "label": "Person",
+        "kind": 6,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "class Person:\n    def __init__(self, name: str, age: int):\n        self.name: str = name\n        self.age: int = age\n    def say_hello(self) -> None:\n        print(f\"Hello, my name is {self.name} and I am {self.age} years old.\")\n# 类型注解的检查\ndef add(a: int, b: int) -> int:\n    return a + b\nimport random",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "greet",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def greet(name: str) -> str:\n    return f\"Hello, {name}!\"\n# 类属性和方法类型注解\nclass Person:\n    def __init__(self, name: str, age: int):\n        self.name: str = name\n        self.age: int = age\n    def say_hello(self) -> None:\n        print(f\"Hello, my name is {self.name} and I am {self.age} years old.\")\n# 类型注解的检查",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    return a + b\nimport random\nvar_1=random.randint(1,10)       # type: int\nvar_2=random.randint(1,10)       # type: int\nprint(add(var_1,var_2))\n# 类型注解的检查    \ndef add(a: int, b: int) -> int:\n    return a + b\nvar_2=random.randint(1,10)",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def add(a: int, b: int) -> int:\n    return a + b\nvar_2=random.randint(1,10)\nprint(add(var_1,var_2))\ndef func(data:int, data2:int) -> int:# 函数参数和返回值类型注解\n    return data + data2\nfunc(1,2)\n# func(1,\"2\")\n# union类型注解\ndef process_data(data: int | str) -> None:",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def func(data:int, data2:int) -> int:# 函数参数和返回值类型注解\n    return data + data2\nfunc(1,2)\n# func(1,\"2\")\n# union类型注解\ndef process_data(data: int | str) -> None:\n    if isinstance(data, int):\n        print(f\"Processing integer: {data}\")\n    elif isinstance(data, str):\n        print(f\"Processing string: {data}\")",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "process_data",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def process_data(data: int | str) -> None:\n    if isinstance(data, int):\n        print(f\"Processing integer: {data}\")\n    elif isinstance(data, str):\n        print(f\"Processing string: {data}\")\n    else:\n        print(\"Unsupported data type\")\n    # 这里是用于处理数据类型没有什么规律的方式\nfrom typing import Union\nmy_list:list[Union[int, str]] = [1, \"two\", 3, \"four\"]",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "func",
+        "kind": 2,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "def func(data:Union[int, str]) -> None:\n    if isinstance(data, int):\n        print(f\"Processing integer: {data}\")\n    elif isinstance(data, str):\n        print(f\"Processing string: {data}\")\n    else:\n        print(\"Unsupported data type\")\nfunc(1)\nfunc(\"2\")",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "var_1:int",
+        "kind": 5,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "var_1:int = 10\nvar_2:float = 3.14\nvar_3:bool = True\n# 函数参数和返回值类型注解\ndef greet(name: str) -> str:\n    return f\"Hello, {name}!\"\n# 类属性和方法类型注解\nclass Person:\n    def __init__(self, name: str, age: int):\n        self.name: str = name",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "var_2:float",
+        "kind": 5,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "var_2:float = 3.14\nvar_3:bool = True\n# 函数参数和返回值类型注解\ndef greet(name: str) -> str:\n    return f\"Hello, {name}!\"\n# 类属性和方法类型注解\nclass Person:\n    def __init__(self, name: str, age: int):\n        self.name: str = name\n        self.age: int = age",
+        "detail": "类型注解",
+        "documentation": {}
+    },
+    {
+        "label": "var_3:bool",
+        "kind": 5,
+        "importPath": "类型注解",
+        "description": "类型注解",
+        "peekOfCode": "var_3:bool = True\n# 函数参数和返回值类型注解\ndef greet(name: str) -> str:\n    return f\"Hello, {name}!\"\n# 类属性和方法类型注解\nclass Person:\n    def __init__(self, name: str, age: int):\n        self.name: str = name\n        self.age: int = age\n    def say_hello(self) -> None:",
+        "detail": "类型注解",
+        "documentation": {}
+    }
+]

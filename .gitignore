@@ -1,0 +1,13 @@
+# 编译产物与本地环境
+*.o
+*.obj
+*.pyc
+__pycache__/
+.vs/
+*.exe
+*.pdb
+*.ilk
+
+# Visual Studio 用户本地设置（含本机绝对路径）
+*.user
+*.suo

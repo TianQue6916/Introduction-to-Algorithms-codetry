@@ -1,0 +1,71 @@
+class tree =这里将定义一个操作大类
+    def init (value)
+                list A=[]
+            def insert (value)
+                add value to A
+            def search (value)
+                if value in A
+                    pop value from A
+            def delete (value)
+                if value in A
+                    remove value from A
+
+
+//
+
+class TreeNode:
+    def __init__(self, key, value):
+        self.key = key
+        self.value = value
+        self.left = None
+        self.right = None
+        self.height = 1  
+
+
+
+
+class BTS(tree)=深度定制各种方法
+    def init (key,value)
+                    super.init(key,value)
+            
+            
+            def search (key)
+                    super.search(key)
+                    
+
+    
+    
+            def insert (key,value,self,root)
+                    if not root
+                        return TreeNode(key, value)
+                    if key < root.key
+                        root.left = self.insert(key, value, self, root.left)
+                    elif key > root.key
+                        root.right = self.insert(key, value, self, root.right)
+                    else
+                        root.value = value
+                        return root
+            def left_reserve(self, root)
+                if not root
+                    return root
+                new_root = self.left_reserve(root.right)
+            
+
+            def right_reserve(self, root)
+                if not root or not root.left
+                    return root
+                new_root = root.left
+                root.left = new_root.right
+                new_root.right = root
+                root.parent = new_root
+                root.height = 1 + max(self.get_height(root.left), self.get_height(root.right))
+                root.left = root.left.right
+                if root.left
+                    root.left.parent = root
+                
+# @d 帮我在这个文件中用mind语言补全一下
+
+
+
+        
+        

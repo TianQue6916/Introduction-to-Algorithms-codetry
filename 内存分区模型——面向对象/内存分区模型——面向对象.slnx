@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="内存分区模型——面向对象/内存分区模型——面向对象.vcxproj" Id="af5b2da2-f899-4db7-94e4-480890015acc" />
+</Solution>

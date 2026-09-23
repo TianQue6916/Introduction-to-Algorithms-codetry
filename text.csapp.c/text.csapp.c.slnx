@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="text.csapp.c.vcxproj" Id="7bdd75d6-5ddf-4087-97cd-7888b5924183" />
+</Solution>

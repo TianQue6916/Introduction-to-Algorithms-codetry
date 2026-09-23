@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="字符串反转输出.vcxproj" Id="f36f3527-cc40-4fbe-aa90-758f6c4d3bab" />
+</Solution>

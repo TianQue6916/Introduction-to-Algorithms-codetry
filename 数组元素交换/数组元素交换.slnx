@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="数组元素交换.vcxproj" Id="f4dbdf0f-603d-4871-9b76-11b3ff4af17f" />
+</Solution>

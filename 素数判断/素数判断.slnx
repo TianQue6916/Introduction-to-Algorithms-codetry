@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="素数判断.vcxproj" Id="174680b9-6960-480d-99a5-5ca1c51164b9" />
+</Solution>
