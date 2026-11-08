@@ -1,0 +1,21 @@
+# NOTICE — third-party material
+
+This repository mixes two kinds of files.
+
+## 1. Original work (CC BY 4.0 / MIT, see LICENSE)
+
+- 中文批注、双语翻译、术语对照（`.bilingual.md` 系列）
+- 目录结构、索引、进度表、组织方式
+- 仓库作者的脚本与配置
+
+## 2. Third-party material — NOT licensed by this repository
+
+| 类型 | 版权归属 | 说明 |
+|---|---|---|
+| 教材原文 / PDF / 扫描件 | 作者与出版方 | 仅供个人学习，请购买正版 |
+| 课程讲义、幻灯片、作业与考试原件 | 开课院校与授课教师 | 依各课程的使用条款 |
+| 视频、字幕 | 原发布者 | 字幕为学习用转录 |
+
+如果你要复用本仓库的内容：**只复用第 1 类**；第 2 类请回到原始出处获取授权。
+
+Contact: https://github.com/TianQue6916
